@@ -2,7 +2,13 @@
 ===================
 
 
-### Нужние инсутрменты:  [InSales theme uploader](https://github.com/httplab/insup),  [Compass](http://compass-style.org/), [Portable Jekyll](https://github.com/madhur/PortableJekyll)
+**Нужние инсутрменты:**
+
+[InSales theme uploader](https://github.com/httplab/insup)
+
+[Compass](http://compass-style.org/)
+
+[Portable Jekyll](https://github.com/madhur/PortableJekyll)
 
 Для удобства редактирование тем для [инсейлс (InSales)](http://insales.ru/), можно воспользоваться отличним инструментом [insup](https://github.com/httplab/insup) которий позволяет нам работать с инсейлс, через их API, для разработчиков темь, это особенно полезно, так как можно редактировать код локально, используя при этом свои привычные инструменты.
 
