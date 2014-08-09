@@ -2,7 +2,7 @@
 ===================
 
 
-**Нужние инсутрменты:**
+**Нужные  инструменты**
 
 [InSales theme uploader](https://github.com/httplab/insup)
 
