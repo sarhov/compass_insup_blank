@@ -34,8 +34,7 @@ _site/
 
 ### Sass ###
 .sass-cache
-
+**/.sass-cache
 
 ### Sass ###
-PSD/
-
+.PSD
