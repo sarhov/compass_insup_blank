@@ -3,6 +3,7 @@ track:
   - media
   - snippets
   - templates
+  - config
 
 # Tracker settings
 #   class: tracker class. Use 'git' or 'simple'
@@ -14,16 +15,16 @@ tracker:
 # api_key: Insales API key for insup application
 # password: Insales API passeword for insup application
 insales:
-  subdomain: .myinsales.ru
-  api_key: 
-  password: 
+  subdomain: aaee.myinsales.ru
+  api_key: c68fb58071b248c9a6fc611f7e567d6b
+  password: 7588ed78fe0e3d565738fac9d67e887c
 
 # Uploader settings
 #   class: uploader class. Use 'insales' or 'dummy'
 #   theme_id: Insales theme ID
 uploader:
   class: insales
-  theme_id: 
+  theme_id: 308233
 
 # Ignore patterns
 # Insup ignore patterns follow the same rules as Git ignore. Remember that the patterns

@@ -1,116 +1,20 @@
-@mixin inner {
-    max-width: 1190px;
-    margin: 0 auto;
-}
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
 
-@mixin custommedia($size) {
-    @media only screen and (max-width: $size) {
-        @content;
-    }
-}
-
-@mixin bordered {
-    border-radius: 5px;
-}
-
-@mixin p-button {
-    padding: 5px 10px;
-    display: inline-block;
-    text-transform: uppercase;
-}
-
-$bc:#E4E5E7;
-
-@mixin trs {
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
+// [class^='sh'], [class^='sh']  * {
+//    @include box-sizing(border-box);
+// }
 
 // 
-// @TODO: Add docs to custom-trs!
+// @TODO: Add docs to family!
 //
-@mixin custom-trs($time) {
-  -webkit-transition: all $time;
-    -o-transition: all $time;
-    transition: all $time;
+@mixin family {
+  font-family: 'PT Sans Narrow', sans-serif;
 }
-
 // 
-// @TODO: Add docs to abscenter!
+// @TODO: Add docs to before!
 //
-@mixin abscenter {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
+@mixin before {
+  content: '';
+  width: 100%;
+  position: absolute;
 }
-
-// 
-// @TODO: Add docs to hovbutton!
-//
-@mixin hovbutton {
-    background: #2e3a47;
-    color: #fff;
-    border: 1px solid #28313c;
-    font-size: 12px;
-    padding: 0 16px;
-    text-align: center;
-    text-transform: uppercase;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 3px;
-    line-height: 26px;
-    &:hover {
-        background-color: #7bbd42;
-        border-color: #6fab3b;
-    }
-}
-
-// 
-// @TODO: Add docs to boxshadow!
-//
-@mixin boxshadow {
-    position: relative;
-    &:before {
-        content: '';
-        @include abscenter;
-        @include trs;
-    }
-    &:hover:before {
-        box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.03) inset;
-    }
-}
-
-%gl-button{
-    padding: 5px  10px;
-    cursor: pointer;
-    // line-height: 28px;
-    text-transform: uppercase;
-    color: #fff;
-    background:none;
-    border:none;
-    border-radius: 3px;
-}
-
-// 
-// @TODO: Add docs to button!
-//
-@mixin lilo {
-  background:#9c0;
-  border: 1px solid #000;
-  color: #000;
-  font-size: 18px;
-  text-align: left;
-  &:hover{
-    border-color: #444;
-  }
-}
-
-
-
-
