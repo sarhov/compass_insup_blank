@@ -1,20 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
 
-// [class^='sh'], [class^='sh']  * {
-//    @include box-sizing(border-box);
-// }
+*, *:before, *:after {
+    @include box-sizing(border-box);
+}
+
+.clearfix {
+    @include pie-clearfix;
+}
 
 // 
 // @TODO: Add docs to family!
 //
 @mixin family {
-  font-family: 'PT Sans Narrow', sans-serif;
-}
-// 
-// @TODO: Add docs to before!
-//
-@mixin before {
-  content: '';
-  width: 100%;
-  position: absolute;
+      font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 }
